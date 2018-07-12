@@ -31,6 +31,10 @@ sudo make install
 
 Obviously, `make` is required to build. `fontconfig` is required for the default build, since it asks `fontconfig` for your system monospace font.  It might be obvious, but `libX11` and `libXft` are required as well. Chances are, you have all of this installed already.
 
+# sudo apt install libfontconfig1 libfontconfig1-dev
+# sudo apt install libx11-dev
+# sudo apt install libxft-dev
+
 ## Custom changes (`config.def.h` or `config.h`)
 
 Now by default, the terminal is transparent and uses an Xresources patch that
